@@ -15,6 +15,7 @@ The FilterHeader component in Checkmate's monitoring dashboard had alignment iss
 ## 🔧 Technical Solution
 
 ### Original Issue
+
 ```jsx
 // Before: Inconsistent alignment
 <FormControl sx={{ minWidth: "10%" }}>
@@ -25,6 +26,7 @@ The FilterHeader component in Checkmate's monitoring dashboard had alignment iss
 ```
 
 ### Final Implementation
+
 ```jsx
 // After: Consistent flexbox alignment
 const flexCenterStyles = {
@@ -36,21 +38,24 @@ const flexCenterStyles = {
   <Select>
     <MenuItem>Options</MenuItem>
   </Select>
-</FormControl>
+</FormControl>;
 ```
 
 ## 📝 Implementation Details
 
 ### Files Modified
+
 - `client/src/Components/FilterHeader/index.jsx`
 
 ### Key Changes
+
 1. **Added flexbox styling** for vertical alignment
 2. **Extracted shared styles** into `flexCenterStyles` constant
 3. **Applied DRY principles** to reduce code duplication
 4. **Removed redundant styling** based on code review feedback
 
 ### Code Review Process
+
 - **Initial Submission:** Basic flexbox fix
 - **CodeRabbit Feedback:** Suggested improvements for code quality
 - **Final Version:** Refactored with shared styling constants
@@ -71,12 +76,14 @@ const flexCenterStyles = {
 ## 🎓 Learning Outcomes
 
 ### Technical Skills
+
 - CSS Flexbox layout techniques
 - React component styling with MUI
 - Code refactoring for maintainability
 - Professional code review response
 
 ### Process Skills
+
 - Open source contribution workflow
 - Git branch management and PR process
 - Collaborative development with automated tools
@@ -91,10 +98,12 @@ const flexCenterStyles = {
 ## 📸 Screenshots
 
 ### Before Fix
-*Filter headers with misaligned text creating visual inconsistency*
 
-### After Fix  
-*Properly aligned filter headers using flexbox layout*
+_Filter headers with misaligned text creating visual inconsistency_
+
+### After Fix
+
+_Properly aligned filter headers using flexbox layout_
 
 ---
 

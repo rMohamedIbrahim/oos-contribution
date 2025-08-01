@@ -13,18 +13,20 @@
 
 ### 2025 Contributions
 
-| Date | Issue | Type | Status | Description |
-|------|-------|------|--------|-------------|
+| Date     | Issue                                                           | Type    | Status       | Description                     |
+| -------- | --------------------------------------------------------------- | ------- | ------------ | ------------------------------- |
 | Aug 2025 | [#2701](https://github.com/bluewave-labs/Checkmate/issues/2701) | Bug Fix | ✅ Submitted | FilterHeader text alignment fix |
 
 ## 🎯 Areas of Focus
 
 ### Frontend (React)
+
 - **UI/UX Improvements:** Component alignment, responsive design
 - **Component Architecture:** Reusable components, proper prop handling
 - **Styling:** CSS-in-JS, Material-UI theming, flexbox layouts
 
 ### Code Quality
+
 - **Best Practices:** DRY principles, clean code standards
 - **Code Reviews:** Responding to automated and human feedback
 - **Testing:** Component testing, integration testing
@@ -32,12 +34,14 @@
 ## 🛠️ Technical Skills Developed
 
 ### Technologies
+
 - **React Hooks:** useState, useEffect, custom hooks
 - **Material-UI:** Component library, theming, responsive design
 - **CSS:** Flexbox, Grid, responsive design patterns
 - **Git:** Branch management, PR workflow, collaborative development
 
 ### Tools & Processes
+
 - **VS Code:** Advanced editing, debugging, extensions
 - **GitHub:** Issues, pull requests, code reviews
 - **CodeRabbit:** Automated code review tool
@@ -48,6 +52,7 @@
 ### FilterHeader Alignment Fix (#2701)
 
 **Files Modified:**
+
 - `client/src/Components/FilterHeader/index.jsx`
 
 **Before/After Code:**
@@ -57,13 +62,13 @@
 <FormControl sx={{ minWidth: "10%" }}>
   <Select value={value} onChange={onChange}>
     <MenuItem value="">All</MenuItem>
-    {options.map(option => (
+    {options.map((option) => (
       <MenuItem key={option.value} value={option.value}>
         {option.label}
       </MenuItem>
     ))}
   </Select>
-</FormControl>
+</FormControl>;
 
 // After: Improved with flexbox alignment and shared styles
 const flexCenterStyles = {
@@ -74,16 +79,17 @@ const flexCenterStyles = {
 <FormControl sx={{ minWidth: "10%", ...flexCenterStyles }}>
   <Select value={value} onChange={onChange}>
     <MenuItem value="">All</MenuItem>
-    {options.map(option => (
+    {options.map((option) => (
       <MenuItem key={option.value} value={option.value}>
         {option.label}
       </MenuItem>
     ))}
   </Select>
-</FormControl>
+</FormControl>;
 ```
 
 **Key Improvements:**
+
 1. Added consistent vertical alignment using flexbox
 2. Extracted shared styling for reusability
 3. Improved code maintainability and readability
@@ -92,12 +98,14 @@ const flexCenterStyles = {
 ## 🎓 Learning Outcomes
 
 ### Technical Growth
+
 - Deeper understanding of CSS flexbox properties
 - Experience with Material-UI component customization
 - Practice with React component refactoring
 - Code review process and feedback incorporation
 
 ### Collaboration Skills
+
 - Working with automated code review tools
 - Professional communication in pull requests
 - Following project contribution guidelines
@@ -106,11 +114,13 @@ const flexCenterStyles = {
 ## 🔮 Future Contribution Plans
 
 ### Short Term
+
 - [ ] Look for more UI/UX improvement opportunities
 - [ ] Contribute to documentation improvements
 - [ ] Help with accessibility enhancements
 
 ### Long Term
+
 - [ ] Contribute to backend Node.js features
 - [ ] Help with test coverage improvements
 - [ ] Assist with performance optimizations

@@ -9,7 +9,7 @@ Hi! I'm Mohamed Ibrahim, a passionate developer contributing to open source proj
 ## 🎯 Contribution Goals
 
 - Learn new technologies and best practices
-- Help improve projects I use and love  
+- Help improve projects I use and love
 - Build connections within the developer community
 - Enhance my coding skills through code reviews
 
@@ -17,8 +17,8 @@ Hi! I'm Mohamed Ibrahim, a passionate developer contributing to open source proj
 
 ### 2025 Contributions
 
-| Project | Issue | Description | Status | PR Link | Skills Used |
-|---------|-------|-------------|--------|---------|-------------|
+| Project                                                 | Issue                                                           | Description                                  | Status       | PR Link                                                       | Skills Used              |
+| ------------------------------------------------------- | --------------------------------------------------------------- | -------------------------------------------- | ------------ | ------------------------------------------------------------- | ------------------------ |
 | [Checkmate](https://github.com/bluewave-labs/Checkmate) | [#2701](https://github.com/bluewave-labs/Checkmate/issues/2701) | Fix text alignment in FilterHeader component | ✅ Submitted | [#2703](https://github.com/bluewave-labs/Checkmate/pull/2703) | React, CSS, Flexbox, MUI |
 
 ## 🛠️ Technologies & Skills
@@ -39,13 +39,15 @@ Hi! I'm Mohamed Ibrahim, a passionate developer contributing to open source proj
 
 **Problem:** The Type, Status, and State filter headers in the monitoring dashboard were not properly aligned vertically, causing a poor user experience.
 
-**Solution:** 
+**Solution:**
+
 - Implemented CSS flexbox layout for proper vertical alignment
 - Used `display: flex` and `alignItems: center` for consistent positioning
 - Refactored code to follow DRY principles based on code review feedback
 - Extracted shared styling into reusable constants
 
 **Technical Details:**
+
 ```javascript
 const flexCenterStyles = {
   display: "flex",
@@ -57,11 +59,13 @@ const flexCenterStyles = {
 ```
 
 **Code Review Response:**
+
 - Addressed CodeRabbit feedback for better code quality
 - Removed redundant styling and improved maintainability
 - Followed React and MUI best practices
 
 **Files Modified:**
+
 - `client/src/Components/FilterHeader/index.jsx`
 
 **Impact:** Improved user experience by ensuring consistent visual alignment across filter components.
