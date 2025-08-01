@@ -82,7 +82,7 @@ const flexCenterStyles = {
 ## 📫 Connect With Me
 
 - **GitHub:** [rMohamedIbrahim](https://github.com/rMohamedIbrahim)
-- **Email:** [Your Email]
+- **Email:** [rmohamedibrahim1@gmail.com]
 
 ## 🙏 Acknowledgments
 
